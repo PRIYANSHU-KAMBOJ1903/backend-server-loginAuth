@@ -9,7 +9,7 @@
   const port=process.env.PORT || 4000;
 
   connectDB();
-  const allowerdOrigins=['http://localhost:5173']
+  const allowerdOrigins=['https://melodic-biscuit-846e6b.netlify.app']
   app.use(express.json());
   app.use(express.urlencoded({extended:true}));
   app.use(cookieParser());
